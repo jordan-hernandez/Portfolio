@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">
+        Jordan <span>Hernandez</span>
+      </a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home"> Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-btn">Contact me</button>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hola, Soy <span>Jordan</span></h1>
+        <h3>
+          Soy <span>Data scientist</span>
+        </h3>
+        <p>Soy una persona apasionada por la física, matemáticas y por la ciencia de datos.Tengo facilidad para aprender, y para trabajar en
+          equipo.</p>
+        <div class="social-icons">
+          <a href="#">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+          <a href="https://www.instagram.com/jordanhernandez10/">
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="#">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          
+        </div>
+          <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" 
+            class="btn">Contact</a>
+          </div>
+      </div>
+      <div class="home-img">
+        <img src="yo.jpeg" alt="">
+      </div>
+
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="yo.jpeg" alt="">
+      </div>
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>Soy una persona apasionada por la física, matemáticas y por la ciencia de datos.Tengo facilidad para aprender, y para trabajar en
+          equipo. Me gusta afrontar retos complejos y darles soluciones simples tal que cualquier persona pueda entender y usar la solución.
+          Igualmente tengo facilidad para adaptarme a diferentes entornos de trabajo y aprender nuevas herramientas de acuerdo a las
+          necesidades.</p>
+        <a href="Jordan_hernandez_cv.pdf" class="btn" download="Jordan_hernandez_cv.pdf">Ver hoja de vida</a>
+      </div> 
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading">Proyectos</h2>
+      
+      <div class="projects-box">
+        
+        <div class="project-card" >
+          <img src="calidad.png" alt="">
+          <h3>Calidad de aire Medellín</h3>
+          <p>Proyecto utilizando una api para extraer
+            los datos de los parámetros de calidad del aire, 
+            también hay un trabajo de EDA. Este proyecto se hace
+            con el fin de generar mayor interes sobre la calidad del aire en Medellín
+          </p>
+          <a href="https://calidaddelaire-medellin.streamlit.app/" class="btn">Revisar proyecto</a>
+        </div>
+        <div class="project-card">
+          <img src="pipeline.png" alt="">
+          <h3>Proyecto 2</h3>
+          <p>LAKSDJLAKSJDLASKJD
+            SLDJASK
+          </p>
+          <div class="btn">Revisar proyecto</div>
+        </div>
+        <div class="project-card">
+          <img src="project3.png" alt="">
+          <h3>Proyecto 3</h3>
+          <p>LAKSDJLAKSJDLASKJD
+            SLDJASK
+          </p>
+          <div class="btn">Revisar proyecto</div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+
+      <h2 class="heading">Contact <span>Me</span></h2>
+      
+      <form action="#">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" 
+            placeholder="Nombre completo">
+            <input type="email" 
+            placeholder="Email">
+          </div>
+          <div class="input-box">
+            <input type="number" 
+            placeholder="Numero de telefono">
+            <input type="text" 
+            placeholder="Asunto">
+          </div>
+
+        </div>
+
+        <div class="input-group2">
+          <textarea name="" id="" 
+          placeholder="Tu Mensaje" cols="30"
+          rows=" 10"></textarea>
+          <input type="submit" value="Send 
+          Message" class="btn">
+        </div>
+
+
+      </form>
+        
+    </section>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="https://www.instagram.com/jordanhernandez10/">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+        <a href="#">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#projects">Proyectos</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      
+
+      
+    </footer>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
